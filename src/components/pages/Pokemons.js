@@ -17,7 +17,7 @@ const Pokemons = () => {
         <div>
             <Header/>
             <main>
-                <h1>Les Pokémons</h1>
+                <h1>Les 151 premiers Pokémons</h1>
                 <section className="pokemonsContainer">
                     {pokemons.map((pokemon)=>
                         <article>

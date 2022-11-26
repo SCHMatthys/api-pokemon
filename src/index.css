@@ -43,6 +43,10 @@ h1,h2{
     margin: 16px;
 }
 
+h1{
+    padding-bottom: 32px;
+}
+
 section > p{
     text-align: center;
     padding: 8px;
@@ -54,6 +58,26 @@ footer{
     background-color: #5a9462;
 }
 
+.articlePokemon div{
+    text-align: center;
+    margin: 0px auto;
+}
+
 .articlePokemon h2{
-    color: red;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.pokemonTypeArticle{
+    text-align: center;
+    margin: 0px auto;
+}
+
+.pokemonTypeArticle h2{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.inputContainer{
+    text-align: center;
 }
